@@ -14,7 +14,7 @@ from splashgen import launch
 from splashgen.components import SplashSite
 from splashgen.integrations import MailchimpSignup
 
-site = SplashSite(title="Frempco - instant improv chats",
+site = SplashSite(title="Frempco - improv chats",
                   logo=path.join(path.dirname(__file__), "images/logo.png"),
                   theme="dark")
 site.headline = "We empower your students with improv"
